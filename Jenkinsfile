@@ -19,7 +19,7 @@ pipeline {
         }
         stage('deploy') {
             steps {
-                echo 'deploying'
+                echo 'deploying from main branch'
             }
         }
     }
