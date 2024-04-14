@@ -9,7 +9,7 @@ pipeline {
         }
         stage('test') {
             steps {
-                echo 'running the test at main branch'
+                echo 'running the test at main branch..'
             }
         }
         stage('build') {
