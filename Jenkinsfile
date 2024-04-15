@@ -20,6 +20,7 @@ pipeline {
         stage('deploy') {
             steps {
                 echo 'deploying from main branch'
+                echo 'this is deploying to tomcat'
             }
         }
     }
